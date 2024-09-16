@@ -1,0 +1,31 @@
+.app-body{
+    padding: 50px;
+}
+.welcome-message {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.welcome-message:hover {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.325);
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,20 @@
+.main-container {
+    width: 100%;       /* Take up the full width */
+    height: 100vh;     /* Take up the full height of the viewport */
+    padding: 20px;      /* Add some padding for better visibility */
+    box-sizing: border-box;  /* Include padding in the width/height calculation */
+}
+.card{
+    background-color: #f0f0f0;  /* Set a background color */
+}
+
+form label{
+    padding: 5px;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .main-container {
+        padding: 10px;  /* Adjust padding for smaller screens */
+    }
+}
